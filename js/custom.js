@@ -58,13 +58,13 @@ $(document).ready(function() {
      });
 
     $('#m1').click(function () {
-        $('#mom').fadeToggle("fast");
+        $('#mom').fadeIn("fast");
         $('#minor').fadeOut("fast");
 
     });
 
     $('#m2').click(function () {
-        $('#minor').fadeToggle("fast");
+        $('#minor').fadeIn("fast");
         $('#mom').fadeOut("fast");
     });
 
