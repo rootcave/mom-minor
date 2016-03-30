@@ -5,7 +5,17 @@
 }
 
 .mm-box {
-    background: url('http://placehold.it/700x500/168ff7/fff');
+    background: url('../img/mm-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#m2 {
+    background: url('../img/mm-02.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
