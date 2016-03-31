@@ -109,3 +109,10 @@ p.lead {
 .navbar-default .navbar-nav>li>a {
     font-size: 17px;
 }
+
+a.ar {
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    font-size: 17px;
+}
