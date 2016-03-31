@@ -2,6 +2,7 @@
 .mom-minor {
     padding: 40px 0;
     overflow: hidden;
+    background: #252525;
 }
 
 .mm-box {
@@ -12,6 +13,13 @@
     color: #fff;
     text-align: center;
     width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.active-box {
+    color: #3A9DCA !important;
+    box-shadow: 0 0 10px #111 !important;
 }
 
 #m2 {
@@ -67,9 +75,24 @@
 }
 
 .doctor {
-    background: #eee;
+    /* background: #eee; */
     padding: 5px;
-    box-shadow: 0 0 10px #555;
+    /* box-shadow: 0 0 10px #555; */
+    border: 1px solid #ddd;
+}
+
+.doctor img {
+    padding: 10px;
+    /* background: #000; */
+}
+
+.doc-info {
+    background: #444;
+    padding: 5px 45px;
+    margin: 21px 0;
+    border-radius: 0 100px;
+    box-shadow: 0 0 15px #bbb;
+    color: #fff;
 }
 
 /* fade */

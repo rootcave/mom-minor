@@ -60,13 +60,39 @@ $(document).ready(function() {
     $('#m1').click(function () {
         $('#mom').fadeIn("fast");
         $('#minor').fadeOut("fast");
+        $(this).addClass('active-box');
+        $('#m2').removeClass('active-box');
 
     });
 
     $('#m2').click(function () {
         $('#minor').fadeIn("fast");
         $('#mom').fadeOut("fast");
+        $(this).addClass('active-box');
+        $('#m1').removeClass('active-box');
     });
+
+    $("#m1, #m2").click(function (){
+        $('html, body').delay(300).animate({
+            scrollTop: $("#mmS").offset().top - 100
+        }, 500);
+    });
+
+
+    /* applyClickEvent */
+    function applyClickEvent() {
+        $('a[href*=#]').on('click', function (e) {
+            e.preventDefault();
+
+            if ($($.attr(this, 'href')).length > 0) {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 1000);
+            }
+            return false;
+        });
+    }
+    applyClickEvent();
 
 
 });
