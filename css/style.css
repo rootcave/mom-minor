@@ -251,7 +251,7 @@ li a.active{
     font-size: 13px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    padding: 0 25px;
+    padding: 0 10px;
     padding-bottom: 30px;
 }
 .single-about-detail:hover .about-details{
