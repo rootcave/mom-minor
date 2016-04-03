@@ -86,7 +86,7 @@ $(document).ready(function() {
 
             if ($($.attr(this, 'href')).length > 0) {
                 $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top
+                    scrollTop: $($.attr(this, 'href')).offset().top - 150
                 }, 1000);
             }
             return false;
