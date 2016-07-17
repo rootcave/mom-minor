@@ -21,7 +21,11 @@
     color: #3A9DCA !important;
     box-shadow: 0 0 10px #111 !important;
 }
-
+ul.bullets>li{
+    direction: rtl;
+    list-style: disc;
+    
+}
 #m2 {
     background: url('../img/mm-02.jpg');
     background-size: cover;
@@ -113,6 +117,6 @@ p.lead {
 a.ar {
     position: fixed;
     top: 25px;
-    left: 50px;
+    right: 50px;
     font-size: 17px;
 }
