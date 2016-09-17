@@ -568,6 +568,9 @@ li a.active{
 footer.footer{
       margin-top: 110px;
 }
+a.map_text{
+  color: white;
+}
 .footer-para{
     margin: 0;
     padding: 0;
