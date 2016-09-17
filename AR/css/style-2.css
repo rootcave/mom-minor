@@ -120,3 +120,13 @@ a.ar {
     right: 50px;
     font-size: 17px;
 }
+
+@media (min-width: 200px) and (max-width: 600px)
+{
+    a.ar {
+        position: fixed;
+        top: 81px;
+        right: 70%;
+        font-size: 17px;
+    }
+}
